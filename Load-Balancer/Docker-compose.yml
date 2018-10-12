@@ -1,0 +1,6 @@
+version: '3'
+services:
+  load_balancer:
+    image: joshuadjacobs/ebayreviews-loadbalancer:latest
+    ports:
+      - "8080:8080"
